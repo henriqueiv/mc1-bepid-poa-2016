@@ -5,10 +5,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main Menu View Controller-->
         <scene sceneID="xja-Ty-Iai">
             <objects>
-                <viewController id="kPq-XO-LXJ" sceneMemberID="viewController">
+                <viewController id="kPq-XO-LXJ" customClass="MainMenuViewController" customModule="MC1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jV7-Yh-FIl"/>
                         <viewControllerLayoutGuide type="bottom" id="cef-Ps-AeS"/>
@@ -25,6 +25,9 @@
                                 </constraints>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Single player"/>
+                                <connections>
+                                    <action selector="singlePlayerBtnTouched:" destination="kPq-XO-LXJ" eventType="primaryActionTriggered" id="yFO-mQ-WkF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCr-Ct-Hwo">
                                 <rect key="frame" x="969" y="934" width="300" height="86"/>
@@ -34,6 +37,9 @@
                                 </constraints>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Multiplayer"/>
+                                <connections>
+                                    <action selector="multiPlayerBtnTouched:" destination="kPq-XO-LXJ" eventType="primaryActionTriggered" id="fR2-mA-ncK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>

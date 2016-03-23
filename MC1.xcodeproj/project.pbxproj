@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6205D4271CA2FE63008616B1 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6205D4261CA2FE63008616B1 /* MainMenuViewController.swift */; };
 		62071E341CA2FB390018912B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62071E331CA2FB390018912B /* AppDelegate.swift */; };
 		62071E361CA2FB390018912B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 62071E351CA2FB390018912B /* GameScene.sks */; };
 		62071E381CA2FB390018912B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62071E371CA2FB390018912B /* GameScene.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6205D4261CA2FE63008616B1 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenuViewController.swift; path = Menu/MainMenuViewController.swift; sourceTree = "<group>"; };
 		62071E301CA2FB390018912B /* MC1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62071E331CA2FB390018912B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62071E351CA2FB390018912B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6205D4281CA2FE6E008616B1 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				6205D4261CA2FE63008616B1 /* MainMenuViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
 		62071E271CA2FB390018912B = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 				62071E3D1CA2FB390018912B /* Main.storyboard */,
 				62071E401CA2FB390018912B /* Assets.xcassets */,
 				62071E421CA2FB390018912B /* Info.plist */,
+				6205D4281CA2FE6E008616B1 /* Menu */,
 			);
 			path = MC1;
 			sourceTree = "<group>";
@@ -143,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6205D4271CA2FE63008616B1 /* MainMenuViewController.swift in Sources */,
 				62071E381CA2FB390018912B /* GameScene.swift in Sources */,
 				62071E3A1CA2FB390018912B /* GameViewController.swift in Sources */,
 				62071E341CA2FB390018912B /* AppDelegate.swift in Sources */,
